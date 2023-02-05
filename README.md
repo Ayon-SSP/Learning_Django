@@ -11,3 +11,6 @@ python3 manage.py runserver # run server
 
 
 django install & vertualenv [`Link`](https://www.digitalocean.com/community/tutorials/how-to-install-the-django-web-framework-on-ubuntu-22-04)
+
+static
+![image](https://user-images.githubusercontent.com/80549753/216835958-127cb89f-1019-44bd-9aec-0ed31c2d2501.png)
