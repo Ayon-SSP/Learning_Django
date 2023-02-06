@@ -26,9 +26,9 @@ static
 ![image](https://user-images.githubusercontent.com/80549753/216835958-127cb89f-1019-44bd-9aec-0ed31c2d2501.png)
 
 
-Past this in your urls.py 
+Past this in your urls.py to Change the view
 ```python
-admin.site.site_header = "WebSite Carton 🚃"
-admin.site.site_title = "UMSRA Admin Portal"
-admin.site.index_title = "Welcome to UMSRA Researcher Portal"
+admin.site.site_header = "Carton 🚃 Network Admin"
+admin.site.site_title = "Carton 🚃 Network Admin Portal"
+admin.site.index_title = "Welcome to Carton 🚃 Network Researcher Portal"
 ```
