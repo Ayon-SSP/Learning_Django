@@ -64,3 +64,17 @@ class Contact(models.Model):
     def __str__(self):
         return self.name
 ```
+```bash
+python3 manage.py makemigrations
+```
+![image](https://user-images.githubusercontent.com/80549753/220147028-ea765abf-bdae-4487-aa13-96d440ea1f93.png)
+Need to make changes
+```python
+from django.contrib import admin
+
+# Register your models here.
+
+from home.models import Contact # This is the line that imports the Contact model from home/models.py
+admin.site.register(Contact) # This is the line that registers the Contact model with the admin site
+
+```
