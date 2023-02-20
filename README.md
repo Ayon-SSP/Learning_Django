@@ -34,3 +34,33 @@ admin.site.site_header = "Carton 🚃 Network Admin"
 admin.site.site_title = "Carton 🚃 Network Admin Portal"
 admin.site.index_title = "Welcome to Carton 🚃 Network Researcher Portal"
 ```
+
+
+
+Forms Request
+```python
+def add(request):
+
+    n1 = request.POST['num1']
+    n2 = request.POST['num2']
+
+    res = int(n1) + int(n2)
+    # return HttpResponse("<center><h1>Bootstrap Learning 📚 </h1></center>")
+    return render(request, 'add.html', {'sum': res})
+```
+
+model.py
+```python
+from django.db import models
+
+# Create your models here.
+class Contact(models.Model):
+    name = models.CharField(max_length=122)
+    email = models.CharField(max_length=122)
+    phone = models.CharField(max_length=12)
+    desc = models.TextField()
+    date = models.DateField()
+
+    def __str__(self):
+        return self.name
+```
