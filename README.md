@@ -79,3 +79,7 @@ admin.site.register(Contact) # This is the line that registers the Contact model
 
 ```
 [Video to understand some connection ...](https://youtu.be/JxzZxdht-XY?t=6960)
+Add app's Config settings.INSTALLED_APPS
+![image](https://user-images.githubusercontent.com/80549753/220149116-8d26eff7-6058-49dd-81aa-784636a10ae8.png)
+
+![image](https://user-images.githubusercontent.com/80549753/220148898-697e1ad9-ef82-4a52-8e70-5ab1064e9fd9.png)
