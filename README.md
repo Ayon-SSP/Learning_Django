@@ -78,3 +78,4 @@ from home.models import Contact # This is the line that imports the Contact mode
 admin.site.register(Contact) # This is the line that registers the Contact model with the admin site
 
 ```
+[Video to understand some connection ...](https://youtu.be/JxzZxdht-XY?t=6960)
