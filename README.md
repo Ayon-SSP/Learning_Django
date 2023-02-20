@@ -64,11 +64,18 @@ class Contact(models.Model):
     def __str__(self):
         return self.name
 ```
+
+1. First register the model in admin.py
+2. app register in settings
+3. Now to save changes and make table in db migrate
+
 ```bash
 python3 manage.py makemigrations
 ```
 ![image](https://user-images.githubusercontent.com/80549753/220147028-ea765abf-bdae-4487-aa13-96d440ea1f93.png)
+
 Need to make changes
+
 ```python
 from django.contrib import admin
 
@@ -76,10 +83,16 @@ from django.contrib import admin
 
 from home.models import Contact # This is the line that imports the Contact model from home/models.py
 admin.site.register(Contact) # This is the line that registers the Contact model with the admin site
-
 ```
 [Video to understand some connection ...](https://youtu.be/JxzZxdht-XY?t=6960)
 Add app's Config settings.INSTALLED_APPS
 ![image](https://user-images.githubusercontent.com/80549753/220149116-8d26eff7-6058-49dd-81aa-784636a10ae8.png)
 
 ![image](https://user-images.githubusercontent.com/80549753/220148898-697e1ad9-ef82-4a52-8e70-5ab1064e9fd9.png)
+![image](https://user-images.githubusercontent.com/80549753/220150437-68e27fed-ac85-452e-8caa-6b4e85adb782.png)
+```python
+python3 manage.py migrate
+```
+![image](https://user-images.githubusercontent.com/80549753/220150739-2d95dcf3-3810-4eed-8c21-951aa6e9b2ed.png)
+![image](https://user-images.githubusercontent.com/80549753/220151203-0159c9cf-707c-4b67-90d3-701fdd6df942.png)
+Sucessfully added
