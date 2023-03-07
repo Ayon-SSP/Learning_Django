@@ -123,8 +123,24 @@ STATICFILES_DIRS = [
 ]
 ```
 
-
-
+## 5. Add Templet's dir in `settings.py` of project
+```python
+TEMPLATES = [
+    {
+        'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'DIRS': [BASE_DIR / "template",],  # Added manually the path of the template folder
+        'APP_DIRS': True,
+        'OPTIONS': {
+            'context_processors': [
+                'django.template.context_processors.debug',
+                'django.template.context_processors.request',
+                'django.contrib.auth.context_processors.auth',
+                'django.contrib.messages.context_processors.messages',
+            ],
+        },
+    },
+]
+```
 For Admin settings
 ```bash
 python3 manage.py makemigrations
