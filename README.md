@@ -9,6 +9,21 @@ python3 manage.py startapp home # create app
 python3 manage.py runserver # run server
 ```
 
+
+static
+![image](https://user-images.githubusercontent.com/80549753/216835958-127cb89f-1019-44bd-9aec-0ed31c2d2501.png)
+
+
+Add static dir in settings.py of project
+```python
+STATICFILES_DIRS = [
+    BASE_DIR / "static",
+    # '/var/www/static/',
+]
+```
+
+
+
 For Admin settings
 ```bash
 python3 manage.py makemigrations
@@ -23,18 +38,6 @@ python3 manage.py createsuperuser
 
 
 django install & vertualenv [`Link`](https://www.digitalocean.com/community/tutorials/how-to-install-the-django-web-framework-on-ubuntu-22-04)
-
-static
-![image](https://user-images.githubusercontent.com/80549753/216835958-127cb89f-1019-44bd-9aec-0ed31c2d2501.png)
-
-
-Add static dir in settings.py of project
-```python
-STATICFILES_DIRS = [
-    BASE_DIR / "static",
-    # '/var/www/static/',
-]
-```
 
 Past this in your urls.py to Change the view
 ```python
