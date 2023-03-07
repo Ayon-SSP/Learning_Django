@@ -16,7 +16,7 @@ urlpatterns = [
     path('', include('home.urls'))  # All the urs from home.urls will be added to urlpatterns
 ]
 ```
-create `urls.py` in app
+- create `urls.py` in app
 ```python
 from django.contrib import admin
 from django.urls import path
@@ -36,12 +36,8 @@ urlpatterns = [
 ]
 
 ```
-
-static
+## 3. Add static dir in `settings.py` of project
 ![image](https://user-images.githubusercontent.com/80549753/216835958-127cb89f-1019-44bd-9aec-0ed31c2d2501.png)
-
-
-Add static dir in settings.py of project
 ```python
 STATICFILES_DIRS = [
     BASE_DIR / "static",
