@@ -94,6 +94,7 @@ STATICFILES_DIRS = [
     BASE_DIR / "static",
     # '/var/www/static/',
 ]
+```
 
 
 ![image](https://user-images.githubusercontent.com/80549753/220148898-697e1ad9-ef82-4a52-8e70-5ab1064e9fd9.png)
