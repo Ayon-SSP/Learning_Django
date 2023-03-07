@@ -141,12 +141,13 @@ TEMPLATES = [
     },
 ]
 ```
+
+## 6. Data Base
 For Admin settings
 ```bash
-python3 manage.py makemigrations
-python3 manage.py migrate
+python3 manage.py makemigrations # To track changes ( changes in schema)
+python3 manage.py migrate (django used some default tables for authentications
 ```
-
 ```bash
 python3 manage.py createsuperuser
 ```
