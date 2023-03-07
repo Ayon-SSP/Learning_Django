@@ -146,7 +146,7 @@ TEMPLATES = [
 For Admin settings
 ```bash
 python3 manage.py makemigrations # To track changes ( changes in schema)
-python3 manage.py migrate (django used some default tables for authentications
+python3 manage.py migrate # (django used some default tables for authentications
 ```
 ```bash
 python3 manage.py createsuperuser
@@ -157,6 +157,8 @@ python3 manage.py createsuperuser
 
 django install & vertualenv [`Link`](https://www.digitalocean.com/community/tutorials/how-to-install-the-django-web-framework-on-ubuntu-22-04)
 
+
+## To change the admin text
 Past this in your urls.py to Change the view
 ```python
 admin.site.site_header = "Carton 🚃 Network Admin"
@@ -164,9 +166,7 @@ admin.site.site_title = "Carton 🚃 Network Admin Portal"
 admin.site.index_title = "Welcome to Carton 🚃 Network Researcher Portal"
 ```
 
-
-
-Forms Request
+## Forms Request
 ```python
 def add(request):
 
