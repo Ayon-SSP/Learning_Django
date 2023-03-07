@@ -1,16 +1,15 @@
 # Django arc
 ![image](https://user-images.githubusercontent.com/80549753/216788425-5a41fac7-51f1-484b-b8a4-ce5236216c3b.png)
 ![image](https://user-images.githubusercontent.com/80549753/219374285-47f633c2-0d68-4612-ae47-cbe302cad1dd.png)
-
+# Django Setup
+## 1. create project & app
 ```bash
 django-admin startproject my_project # create project
 cd my_project/
 python3 manage.py startapp home # create app
 python3 manage.py runserver # run server
 ```
-
-
-add in url.py project
+## 2. Add in `url.py` project
 ```python
 urlpatterns = [
     path('admin/', admin.site.urls),
