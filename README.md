@@ -142,23 +142,8 @@ TEMPLATES = [
 ]
 ```
 
-## 6. Data Base
-For Admin settings
-```bash
-python3 manage.py makemigrations # To track changes ( changes in schema)
-python3 manage.py migrate # (django used some default tables for authentications
-```
-```bash
-python3 manage.py createsuperuser
-```
-![image](https://user-images.githubusercontent.com/80549753/217037738-c50bb329-7d60-4303-acdf-14913b6b2450.png)
-![image](https://user-images.githubusercontent.com/80549753/217038013-def5a3a5-5c20-4e1f-8548-bdedc51900ef.png)
 
-
-django install & vertualenv [`Link`](https://www.digitalocean.com/community/tutorials/how-to-install-the-django-web-framework-on-ubuntu-22-04)
-
-
-## To change the admin text
+## x.To change the admin text
 Past this in your urls.py to Change the view
 ```python
 admin.site.site_header = "Carton 🚃 Network Admin"
@@ -184,6 +169,22 @@ admin.site.index_title = "Welcome to Carton 🚃 Network Researcher Portal"
 {% endblock body %}
 ```
 
+
+
+## 6. Data Base
+For Admin settings
+```bash
+python3 manage.py makemigrations # To track changes ( changes in schema)
+python3 manage.py migrate # (django used some default tables for authentications
+```
+```bash
+python3 manage.py createsuperuser
+```
+![image](https://user-images.githubusercontent.com/80549753/217037738-c50bb329-7d60-4303-acdf-14913b6b2450.png)
+![image](https://user-images.githubusercontent.com/80549753/217038013-def5a3a5-5c20-4e1f-8548-bdedc51900ef.png)
+
+
+django install & vertualenv [`Link`](https://www.digitalocean.com/community/tutorials/how-to-install-the-django-web-framework-on-ubuntu-22-04)
 
 ## Forms Request
 ```python
