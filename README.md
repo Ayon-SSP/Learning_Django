@@ -166,6 +166,25 @@ admin.site.site_title = "Carton 🚃 Network Admin Portal"
 admin.site.index_title = "Welcome to Carton 🚃 Network Researcher Portal"
 ```
 
+## 🎋 Tamplet inheritance
+```html
+{% block title %}
+{% endblock title %}
+
+{% block body %}
+{% endblock body %}
+```
+```html
+{% extends 'base.html' %}
+
+{% block title %} Website {% endblock title %}
+
+{% block body %}
+    This is body
+{% endblock body %}
+```
+
+
 ## Forms Request
 ```python
 def add(request):
@@ -226,21 +245,3 @@ python3 manage.py migrate
 ![image](https://user-images.githubusercontent.com/80549753/220150739-2d95dcf3-3810-4eed-8c21-951aa6e9b2ed.png)
 ![image](https://user-images.githubusercontent.com/80549753/220151203-0159c9cf-707c-4b67-90d3-701fdd6df942.png)
 Sucessfully added
-
-## Tamplet inheritance
-```html
-{% block title %}
-{% endblock title %}
-
-{% block body %}
-{% endblock body %}
-```
-```html
-{% extends 'base.html' %}
-
-{% block title %} Website {% endblock title %}
-
-{% block body %}
-    This is body
-{% endblock body %}
-```
