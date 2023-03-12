@@ -264,7 +264,7 @@ class Contact(models.Model):
 python3 manage.py makemigrations
 ```
 > makemigrations - create changes and store in a file
-migrate - apply the pending changes created by makemigrations
+> migrate - apply the pending changes created by makemigrations
 
 
 ![image](https://user-images.githubusercontent.com/80549753/220147028-ea765abf-bdae-4487-aa13-96d440ea1f93.png)
