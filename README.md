@@ -116,6 +116,7 @@ def add(request):
 ```
 
 ## 4. Add static dir in `settings.py` of project
+Create static folder and add path
 ![image](https://user-images.githubusercontent.com/80549753/216835958-127cb89f-1019-44bd-9aec-0ed31c2d2501.png)
 ```python
 STATICFILES_DIRS = [
@@ -125,6 +126,7 @@ STATICFILES_DIRS = [
 ```
 
 ## 5. Add Templet's dir in `settings.py` of project
+Create template folder and add path
 ```python
 TEMPLATES = [
     {
