@@ -11,6 +11,7 @@ python3 manage.py runserver # run server
 ```
 ## 2. Add in `url.py` project
 ```python
+from django.urls import include, path
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('home.urls'))  # All the urs from home.urls will be added to urlpatterns
