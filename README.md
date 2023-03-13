@@ -293,3 +293,14 @@ python3 manage.py migrate
 ![image](https://user-images.githubusercontent.com/80549753/220150739-2d95dcf3-3810-4eed-8c21-951aa6e9b2ed.png)
 ![image](https://user-images.githubusercontent.com/80549753/220151203-0159c9cf-707c-4b67-90d3-701fdd6df942.png)
 Sucessfully added
+
+## Making queries in Django [`link`](https://docs.djangoproject.com/en/4.1/topics/db/queries/)
+```
+Contact.objects.all()
+Contact.objects.all()[0]
+Contact.objects.all()[0].name
+Contact.objects.filter(name="AYON KARMAKAR")
+```
+![image](https://user-images.githubusercontent.com/80549753/224615431-0ad81b1d-1948-4d7c-be41-6247945e9a45.png)
+![image](https://user-images.githubusercontent.com/80549753/224615773-3502dc09-366e-47b8-a29d-3d7d27d768f9.png)
+![image](https://user-images.githubusercontent.com/80549753/224616022-84f100e4-7570-4fcd-9008-3f8749b5361a.png)
