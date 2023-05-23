@@ -305,3 +305,19 @@ Contact.objects.filter(name="AYON KARMAKAR")
 ![image](https://user-images.githubusercontent.com/80549753/224615431-0ad81b1d-1948-4d7c-be41-6247945e9a45.png)
 ![image](https://user-images.githubusercontent.com/80549753/224615773-3502dc09-366e-47b8-a29d-3d7d27d768f9.png)
 ![image](https://user-images.githubusercontent.com/80549753/224616022-84f100e4-7570-4fcd-9008-3f8749b5361a.png)
+
+
+# connect Django with a PostgreSQL database
+Change in settings.py
+```python
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'mydatabase',
+        'USER': 'myuser',
+        'PASSWORD': 'mypassword',
+        'HOST': 'localhost',
+        'PORT': '5432',
+    }
+}
+```
