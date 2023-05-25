@@ -321,7 +321,7 @@ DATABASES = {
     }
 }
 ```
-
+# [Templates](https://docs.djangoproject.com/en/4.2/ref/templates/)
 # for loop's and conditions. 
 [Doc Link](https://docs.djangoproject.com/en/4.2/ref/templates/builtins/)
 ![image](https://github.com/Ayon-SSP/Learning_Django/assets/80549753/e5ff796d-846e-4307-867d-e9ca5304dd2f)
