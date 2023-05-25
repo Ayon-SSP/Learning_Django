@@ -323,6 +323,6 @@ DATABASES = {
 ```
 
 # for loop's and conditions. 
-[https://docs.djangoproject.com/en/4.2/ref/templates/builtins/](Doc Link)
+[Doc Link](https://docs.djangoproject.com/en/4.2/ref/templates/builtins/)
 ![image](https://github.com/Ayon-SSP/Learning_Django/assets/80549753/e5ff796d-846e-4307-867d-e9ca5304dd2f)
 ![image](https://github.com/Ayon-SSP/Learning_Django/assets/80549753/87d16ab9-9864-4147-b499-b5998a8eac6f)
