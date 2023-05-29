@@ -328,3 +328,8 @@ DATABASES = {
 ![image](https://github.com/Ayon-SSP/Learning_Django/assets/80549753/87d16ab9-9864-4147-b499-b5998a8eac6f)
 # postgrase connection
 ![image](https://github.com/Ayon-SSP/Learning_Django/assets/80549753/bb64d825-a585-4994-bcf8-5ea0a5219f8e)
+
+ # To flush all the data
+ ```bash
+ python3 manage.py flush
+ ```
