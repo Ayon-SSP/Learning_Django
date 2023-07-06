@@ -242,6 +242,7 @@ def add(request):
 ```
 
 model.py
+[docs](https://docs.djangoproject.com/en/4.2/ref/models/fields/)
 ```python
 from django.db import models
 
