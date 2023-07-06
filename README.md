@@ -334,4 +334,5 @@ DATABASES = {
  python3 manage.py flush
  ```
 # Shell
-![image](https://github.com/Ayon-SSP/Learning_Django/assets/80549753/e31b4ed2-dfcc-4d39-a8e9-2eeb731b59f9)
+![image](https://github.com/Ayon-SSP/Learning_Django/assets/80549753/d6d2d8f6-cb03-41ea-8b9e-3809c6823101)
+
