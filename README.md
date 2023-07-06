@@ -333,3 +333,5 @@ DATABASES = {
  ```bash
  python3 manage.py flush
  ```
+# Shell
+![image](https://github.com/Ayon-SSP/Learning_Django/assets/80549753/e31b4ed2-dfcc-4d39-a8e9-2eeb731b59f9)
