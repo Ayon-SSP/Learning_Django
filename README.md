@@ -338,4 +338,4 @@ DATABASES = {
 ![image](https://github.com/Ayon-SSP/Learning_Django/assets/80549753/d6d2d8f6-cb03-41ea-8b9e-3809c6823101)
 
 
-# Django default auth [Link](https://docs.djangoproject.com/en/4.2/topics/auth/customizing/)
+# Django default auth [Link](https://docs.djangoproject.com/en/4.2/topics/auth/customizing/) [AUthFeatures](https://docs.djangoproject.com/en/4.0/topics/auth/default/#module-django.contrib.auth.views)
